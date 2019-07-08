@@ -1,0 +1,1378 @@
+{
+  "version": "0.34.0",
+  "artifacts": {
+    "ApiLambdaCrudDynamoDBExample": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://048416854569/us-east-1",
+      "properties": {
+        "templateFile": "ApiLambdaCrudDynamoDBExample.template.json"
+      },
+      "metadata": {
+        "/ApiLambdaCrudDynamoDBExample/items": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": "items",
+            "trace": [
+              "new Table (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:64:23)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:10:29)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/items/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "items07D08F4B",
+            "trace": [
+              "new Table (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:47:22)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:10:29)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionServiceRoleCFD54796",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:29:22)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:56:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:17:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionServiceRoleDefaultPolicy6B743AA8",
+            "trace": [
+              "new Policy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/policy.js:23:26)",
+              "Role.addToPolicy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:122:34)",
+              "Function.addToPrincipal (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/grant.js:52:65)",
+              "Table.grant (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:227:26)",
+              "Table.grantReadWriteData (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:283:61)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:63:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionE3257B22",
+            "trace": [
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:70:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:17:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/Code": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "id": "ApiLambdaCrudDynamoDBExamplegetOneItemFunctionCodeBA304F93",
+              "packaging": "zip",
+              "sourceHash": "86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "s3BucketParameter": "getOneItemFunctionCodeS3Bucket373AA1BE",
+              "s3KeyParameter": "getOneItemFunctionCodeS3VersionKey56A3E97C",
+              "artifactHashParameter": "getOneItemFunctionCodeArtifactHashE0D2DE55"
+            },
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:80:19)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:17:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/Code/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionCodeS3Bucket373AA1BE",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:29)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:17:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/Code/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionCodeS3VersionKey56A3E97C",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:51:26)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:17:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/Code/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionCodeArtifactHashE0D2DE55",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:55:27)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:17:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/ApiPermission.GET..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionApiPermissionGETitemsid88F5DDBE",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:79:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/ApiPermission.Test.GET..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionApiPermissionTestGETitemsid3DD2AB9F",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:36:26)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:79:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionServiceRoleCC084440",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:29:22)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:56:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:26:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionServiceRoleDefaultPolicyF069C759",
+            "trace": [
+              "new Policy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/policy.js:23:26)",
+              "Role.addToPolicy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:122:34)",
+              "Function.addToPrincipal (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/grant.js:52:65)",
+              "Table.grant (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:227:26)",
+              "Table.grantReadWriteData (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:283:61)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:62:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunction0B7A913E",
+            "trace": [
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:70:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:26:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/Code": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "id": "ApiLambdaCrudDynamoDBExamplegetAllItemsFunctionCode23BC8B2A",
+              "packaging": "zip",
+              "sourceHash": "86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "s3BucketParameter": "getAllItemsFunctionCodeS3Bucket1F957286",
+              "s3KeyParameter": "getAllItemsFunctionCodeS3VersionKey8E10DE15",
+              "artifactHashParameter": "getAllItemsFunctionCodeArtifactHash646914DA"
+            },
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:80:19)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:26:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/Code/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionCodeS3Bucket1F957286",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:29)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:26:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/Code/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionCodeS3VersionKey8E10DE15",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:51:26)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:26:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/Code/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionCodeArtifactHash646914DA",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:55:27)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:26:30)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/ApiPermission.GET..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionApiPermissionGETitems4D25041A",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:73:15)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/ApiPermission.Test.GET..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionApiPermissionTestGETitemsF9E811CE",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:36:26)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:73:15)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionServiceRole1BBF2178",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:29:22)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:56:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:35:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionServiceRoleDefaultPolicy8FAF1611",
+            "trace": [
+              "new Policy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/policy.js:23:26)",
+              "Role.addToPolicy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:122:34)",
+              "Function.addToPrincipal (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/grant.js:52:65)",
+              "Table.grant (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:227:26)",
+              "Table.grantReadWriteData (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:283:61)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:64:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunction8D47E48A",
+            "trace": [
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:70:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:35:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/Code": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "id": "ApiLambdaCrudDynamoDBExamplecreateItemFunctionCodeAD434EDB",
+              "packaging": "zip",
+              "sourceHash": "86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "s3BucketParameter": "createItemFunctionCodeS3Bucket6E09552C",
+              "s3KeyParameter": "createItemFunctionCodeS3VersionKeyA9CE90B7",
+              "artifactHashParameter": "createItemFunctionCodeArtifactHash0B49906F"
+            },
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:80:19)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:35:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/Code/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionCodeS3Bucket6E09552C",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:29)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:35:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/Code/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionCodeS3VersionKeyA9CE90B7",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:51:26)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:35:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/Code/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionCodeArtifactHash0B49906F",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:55:27)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:35:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/ApiPermission.POST..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionApiPermissionPOSTitems81C7F581",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:75:15)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/ApiPermission.Test.POST..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionApiPermissionTestPOSTitemsE2712FF3",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:36:26)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:75:15)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionServiceRole40035396",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:29:22)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:56:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:44:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionServiceRoleDefaultPolicy6A793729",
+            "trace": [
+              "new Policy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/policy.js:23:26)",
+              "Role.addToPolicy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:122:34)",
+              "Function.addToPrincipal (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/grant.js:52:65)",
+              "Table.grant (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:227:26)",
+              "Table.grantReadWriteData (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:283:61)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:65:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunction59415205",
+            "trace": [
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:70:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:44:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/Code": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "id": "ApiLambdaCrudDynamoDBExampleupdateItemFunctionCodeA2082F61",
+              "packaging": "zip",
+              "sourceHash": "86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "s3BucketParameter": "updateItemFunctionCodeS3BucketFE6E0C02",
+              "s3KeyParameter": "updateItemFunctionCodeS3VersionKey4E86AAE9",
+              "artifactHashParameter": "updateItemFunctionCodeArtifactHash017C295A"
+            },
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:80:19)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:44:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/Code/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionCodeS3BucketFE6E0C02",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:29)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:44:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/Code/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionCodeS3VersionKey4E86AAE9",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:51:26)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:44:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/Code/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionCodeArtifactHash017C295A",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:55:27)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:44:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/ApiPermission.PATCH..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionApiPermissionPATCHitemsid8CB6EFB6",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:81:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/ApiPermission.Test.PATCH..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionApiPermissionTestPATCHitemsidA107639B",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:36:26)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:81:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionServiceRole5C201FCC",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:29:22)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:56:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:53:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionServiceRoleDefaultPolicyDCE46F14",
+            "trace": [
+              "new Policy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/policy.js:23:26)",
+              "Role.addToPolicy (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:122:34)",
+              "Function.addToPrincipal (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/grant.js:52:65)",
+              "Table.grant (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:227:26)",
+              "Table.grantReadWriteData (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:283:61)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:67:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunction2918B1B0",
+            "trace": [
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:70:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:53:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/Code": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "id": "ApiLambdaCrudDynamoDBExampledeleteItemFunctionCode155B1901",
+              "packaging": "zip",
+              "sourceHash": "86e2970d042dfb0ed5675349c01493829075063723f6685f7a56ff24f4d0cd37",
+              "s3BucketParameter": "deleteItemFunctionCodeS3BucketDD560E8A",
+              "s3KeyParameter": "deleteItemFunctionCodeS3VersionKey30163D57",
+              "artifactHashParameter": "deleteItemFunctionCodeArtifactHashD808B865"
+            },
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:80:19)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:53:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/Code/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionCodeS3BucketDD560E8A",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:29)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:53:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/Code/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionCodeS3VersionKey30163D57",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:51:26)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:53:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/Code/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionCodeArtifactHashD808B865",
+            "trace": [
+              "new Asset (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:55:27)",
+              "AssetCode.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function.js:91:20)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:53:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/ApiPermission.DELETE..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionApiPermissionDELETEitemsidA4BEB71D",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:83:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/ApiPermission.Test.DELETE..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionApiPermissionTestDELETEitemsidB2484C89",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:36:26)",
+              "Method.renderIntegration (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:83:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApi28111E1C",
+            "trace": [
+              "new RestApi (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:23:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:68:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiDeploymentFEC31BD0463f2f0ae75a8bce473f7bfda7158ff8",
+            "trace": [
+              "new Deployment (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/deployment.js:39:25)",
+              "RestApi.configureDeployment (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:134:38)",
+              "new RestApi (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:36:14)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:68:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiDeploymentStageprodE77B897D",
+            "trace": [
+              "new Stage (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/stage.js:27:26)",
+              "RestApi.configureDeployment (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:142:36)",
+              "new RestApi (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:36:14)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:68:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiEndpoint8392E274",
+            "trace": [
+              "RestApi.configureDeployment (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:146:13)",
+              "new RestApi (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:36:14)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:68:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiCloudWatchRoleB5C7B431",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-iam/lib/role.js:29:22)",
+              "RestApi.configureCloudWatchRole (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:155:22)",
+              "new RestApi (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:39:18)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:68:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiAccount591BF3E1",
+            "trace": [
+              "RestApi.configureCloudWatchRole (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:159:26)",
+              "new RestApi (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:39:18)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:68:21)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitems9015DBED",
+            "trace": [
+              "new Resource (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:66:26)",
+              "RootResource.addResource (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:12:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:71:32)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsGET59B0F78A",
+            "trace": [
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:73:15)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsPOSTDD3E83D0",
+            "trace": [
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:75:15)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsOPTIONSB46B4D53",
+            "trace": [
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "addCorsOptions (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:89:17)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:76:9)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidA29927C2",
+            "trace": [
+              "new Resource (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:66:26)",
+              "Resource.addResource (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:12:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:77:34)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidGET38A333A8",
+            "trace": [
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:79:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/PATCH/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidPATCH0548CB6A",
+            "trace": [
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:81:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/DELETE/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidDELETE21550005",
+            "trace": [
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:83:20)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidOPTIONS62BD91D0",
+            "trace": [
+              "new Method (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "Resource.addMethod (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "addCorsOptions (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:89:17)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:84:9)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/AWS-2/aws-cdk-examples/typescript/api-cors-lambda-crud-dynamodb/index.js:117:1)",
+              "Module._compile (internal/modules/cjs/loader.js:688:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)",
+              "Module.load (internal/modules/cjs/loader.js:598:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:537:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:529:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:741:12)",
+              "startup (internal/bootstrap/node.js:285:19)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/aws-apigateway": "0.35.0",
+      "@aws-cdk/aws-iam": "0.35.0",
+      "@aws-cdk/cdk": "0.35.0",
+      "@aws-cdk/cx-api": "0.35.0",
+      "@aws-cdk/region-info": "0.35.0",
+      "@aws-cdk/aws-dynamodb": "0.35.0",
+      "@aws-cdk/aws-applicationautoscaling": "0.35.0",
+      "@aws-cdk/aws-autoscaling-common": "0.35.0",
+      "@aws-cdk/aws-cloudwatch": "0.35.0",
+      "@aws-cdk/aws-lambda": "0.35.0",
+      "@aws-cdk/aws-ec2": "0.35.0",
+      "@aws-cdk/aws-sqs": "0.35.0",
+      "@aws-cdk/aws-kms": "0.35.0",
+      "@aws-cdk/aws-s3-assets": "0.35.0",
+      "@aws-cdk/assets": "0.35.0",
+      "@aws-cdk/aws-s3": "0.35.0",
+      "@aws-cdk/aws-events": "0.35.0",
+      "jsii-runtime": "node.js/v10.13.0"
+    }
+  }
+}
